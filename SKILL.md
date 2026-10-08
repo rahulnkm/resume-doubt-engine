@@ -24,30 +24,29 @@ Run them in order. Each ends at a gate the user answers before the next starts.
 
 Editing a resume hosted in resume.lol: `references/resume-lol.md`.
 
-## Ordering rule: obvious to subtle
+## Ordering rule: real proof first
 
-Within a role, the doubts the bullets answer run from **most obvious at the top to least obvious at the bottom**.
+Within a role, bullets go in this order:
 
-The most obvious doubt is the one a skeptical reader forms from the role's header alone: title, company, dates, industry. The direction has to hold all the way down. Exact ranking does not matter, so 1-2-3-4-5 and 1-1-3-5-5 are both fine; 1-4-2-5 is not.
+1. **Real users or a measured result.** Test cases, demos and internal runs are not users. A bullet that only looks like it answers "does anyone use it?" does not get the top slot.
+2. **A system someone else now runs** goes before work only the candidate did.
+3. **With no users, the build with a named company and numbers** goes first among the builds.
+4. **Breadth before plumbing:** where it was applied goes before monitoring, cost tracking or data access.
+5. **Exception, first hire or sole owner of a function:** a bullet stating that scope ("Stood up marketing as the sole marketing hire at...") goes above everything, then the rules above. It answers the header's "how big was this job?" before the number. Only when the facts state the scope outright; never invent a scope bullet.
 
-Test before locking a role: read its header line out loud, write the first three questions a skeptical reader asks, and check that the first bullet answers one of them. Never put a subtle doubt above an obvious one because its bullet is stronger.
+When these rules do not decide, obvious doubts go above subtle ones. The most obvious doubt is the one a skeptical reader forms from the role's header alone: title, company, dates, industry. Obviousness ladder, most to least: doubts the header raises (unknown company, short tenure, title that outruns the scope, solo work, seniority) → whether the core job was actually done → craft and depth → working with other people. When two bullets tie on both, the stronger proof goes first.
 
-When two bullets answer doubts of equal obviousness, the stronger proof goes first.
+Jobs come first on the page, then side projects and open source, then education and skills.
 
-Obviousness ladder, most to least: doubts the header line itself raises (unknown company, short tenure, title that outruns the scope, solo work, seniority) → doubts about whether the core job was actually done → doubts about craft and depth → doubts about working with other people.
+## Hook: a verb, then the result
 
-## Hook preference: result first
+Every bullet opens with a plain past-tense verb. Never open with the number itself: "Revenue grew 4x..." or "6 of 40 questions..." reads as AI-written.
 
-Each bullet is a Pain, a Problem, a Solution or a Result, and it opens with that. When the facts support more than one framing, pick the highest one on this ladder:
+- **Measured result exists:** a result verb, the number, then "by" and how. "Grew trial-to-paid conversion from 4% to 9% by..." Keep all of the how, even at 2 lines.
+- **No measured result:** "Built [thing] that [does a, b and c]." Never word it so it implies an outcome nobody measured.
+- **Stopped on purpose:** "Ran [thing]..., then killed it after data showed..." The kill goes at the end, never as the opening verb.
 
-1. **Result** - the outcome and its number
-2. **Solution** - the thing built and why it was clever
-3. **Problem** - the knot that had to be untangled
-4. **Pain** - the thing that was hurting
-
-Drop a rung only when the rung above is not honestly available: no measured outcome, no built artifact, and so on. Never open with the pain when a real result exists.
-
-This is a separate axis from the ordering rule. Obviousness decides which bullet goes where in the role; the ladder decides how each bullet opens.
+Full house style in `references/bullet-style.md`.
 
 ## Hard rules
 
@@ -64,4 +63,5 @@ This is a separate axis from the ordering rule. Obviousness decides which bullet
 - A number that came from a previous conversation rather than from the candidate this run.
 - Researchers who have seen the resume, so the keywords echo it back.
 - Two bullets on the same doubt while another doubt has none.
-- A role whose bullets get more obvious as they go down.
+- A test case, demo or internal run placed above real proof as if it were a user.
+- A rewrite that reads like a different author from the candidate's own untouched bullets.

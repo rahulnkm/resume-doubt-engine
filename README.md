@@ -12,7 +12,7 @@ Six phases, each ending at a gate you answer before the next starts:
 2. **Committee map** - turn that research into doubt chains per persona (recruiter, hiring manager, technical evaluator, etc.).
 3. **Fact intake** - fill a facts template with only what you confirm this run.
 4. **Keyword sheet** - cross-check the map, the specific job description and recruiter search terms.
-5. **Bullet construction** - write bullets ordered from most obvious doubt to least, each opening on its strongest honest hook.
+5. **Bullet construction** - real proof first, every bullet verb-first in a plain house style ("Grew X from A to B by...", "Built Y that..."), calibrated to the candidate by A/B testing.
 6. **Audit** - bullet-to-doubt matrix, coverage, quick fixes, fact-check landmines and story prompts.
 
 ## Install

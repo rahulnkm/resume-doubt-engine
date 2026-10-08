@@ -28,7 +28,7 @@ Status: Strong, Partial, Weak, None, or Over-covered. Then state the pattern in 
 
 ## 3. Quick fixes
 
-Changes available today with the facts already in hand. Each one names the doubt it serves. If the page is full, they hold the line count.
+Changes available today with the facts already in hand. Each one names the doubt it serves. If the page is full, they hold the line count. Any suggested bullet text is already written in the house style from `bullet-style.md`, so it reads like the candidate wrote it.
 
 ## 4. Fact-check landmines
 
